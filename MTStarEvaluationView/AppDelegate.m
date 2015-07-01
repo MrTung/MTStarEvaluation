@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  MTStarEvaluationView
 //
-//  Created by 董徐维 on 15/7/1.
-//  Copyright (c) 2015年 董徐维. All rights reserved.
+//  Created by  Mr.Tung on 15/7/1.
+//  Copyright (c) 2015年  Mr.Tung. All rights reserved.
 //
 
 #import "AppDelegate.h"

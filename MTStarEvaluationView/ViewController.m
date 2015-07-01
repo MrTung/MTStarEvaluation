@@ -2,8 +2,8 @@
 //  ViewController.m
 //  MTStarEvaluationView
 //
-//  Created by 董徐维 on 15/7/1.
-//  Copyright (c) 2015年 董徐维. All rights reserved.
+//  Created by  Mr.Tung on 15/7/1.
+//  Copyright (c) 2015年  Mr.Tung. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -14,14 +14,15 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.starView = [[MTStarEvaluation alloc] initWithFrame:CGRectMake(30, 200, 100, 20)
+                                                 numberOfStar:5];
+    self.starView.delegate = self;
+    [self.view addSubview:self.starView];
+    [self.starView setScore:8 withAnimation:YES];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
