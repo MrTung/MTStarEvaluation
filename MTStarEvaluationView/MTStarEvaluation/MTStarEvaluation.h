@@ -15,6 +15,7 @@
 @protocol MTStarEvaluationDelegate <NSObject>
 
 @optional
+
 -(void)starRatingView:(MTStarEvaluation *)view score:(float)score;
 @end
 
