@@ -26,6 +26,9 @@
 {
     [super awakeFromNib];
     
+    
+    
+    
     _numberOfStar = 5;
     
     [self initView];
