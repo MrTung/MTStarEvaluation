@@ -7,4 +7,4 @@ self.starView.delegate = self;
 [self.starView setScore:8 withAnimation:YES];
 
 
-https://github.com/MrTung/MTStarEvaluation/blob/master/MTStarEvaluationView/MTStarEvaluation/Image/demo.jpeg
+https://github.com/MrTung/MTStarEvaluation/blob/master/Image/demo.jpeg
